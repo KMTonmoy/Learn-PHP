@@ -1,21 +1,23 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning PHP</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
 <body>
 
     <header>
-
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">PHP Tutorials</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -27,7 +29,8 @@
                             <a class="nav-link" href="#">Link</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
                                 Dropdown
                             </a>
                             <ul class="dropdown-menu">
@@ -50,30 +53,26 @@
                 </div>
             </div>
         </nav>
-
     </header>
 
-    <main class="container">
-        <h2>More On PHP Variables</h2>
-        <h1>Rules For Createing in php</h1>
+    <main class="container mt-4">
+        <h2>More on PHP Variables</h2>
+        <p>In PHP, variables are used to store data values. Here are the rules for creating variables in PHP:</p>
         <ul>
-            <li>Starts with $ Sign</li>
-            <li>Cannot start with a Number</li>
-            <li>Must satrt with a letter or an underschore caractres</li>
-            <li>Can only contain Alpanumeric carectrs and underschore</li>
-            <li>Variables in php are case sensitive . $harry , $Tonmoy and $tOnmoy are difference</li>
-            <?php
-            $name = "tonmoy";
-            echo $name
-            ?>
+            <li>Starts with the $ sign</li>
+            <li>Cannot start with a number</li>
+            <li>Must start with a letter or an underscore character</li>
+            <li>Can only contain alphanumeric characters and underscores</li>
+            <li>Variables in PHP are case-sensitive (e.g., $harry, $Tonmoy, and $tOnmoy are different)</li>
         </ul>
-
-
+        <?php
+        $name = "tonmoy";
+        echo $name;
+        ?>
     </main>
 
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 
 </html>
